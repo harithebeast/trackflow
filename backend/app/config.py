@@ -7,7 +7,7 @@ class Settings(BaseSettings):
     algorithm: str = "HS256"
     cors_origins: list = [
         "http://localhost:3000",
-        "https://trackflow-jzex.onrender.com"  # Your actual frontend URL
+        "https://trackflow-1-dyvf.onrender.com"  # Your actual frontend URL
     ]
     
     class Config:

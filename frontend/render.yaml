@@ -8,4 +8,6 @@ services:
       - key: NODE_VERSION
         value: 18.0.0
       - key: PORT
-        value: 10000 
+        value: 10000
+      - key: REACT_APP_API_URL
+        value: "https://trackflow-jzex.onrender.com/api" 
