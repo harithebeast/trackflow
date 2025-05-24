@@ -1,0 +1,286 @@
+{
+	"id": "3106fa34-14e8-46e3-b344-505e3747a2dc",
+	"name": "TrackFlow CRM",
+	"timestamp": "2025-05-23T04:40:42.151Z",
+	"collection_id": "34426865-316a981d-fe59-41cb-9373-e69d1ee5b3bd",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2025-05-23T04:40:32.144Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "c77f07b2-e453-464d-9eec-f6f099adb43f",
+			"name": "Get All Leads",
+			"url": "http://localhost:8000/api/leads/",
+			"time": 917,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				917
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "39644c65-cd2f-4747-bb8c-d6f63f643a94",
+			"name": "Create Lead",
+			"url": "http://localhost:8000/api/leads/",
+			"time": 19,
+			"responseCode": {
+				"code": 422,
+				"name": "Unprocessable Entity"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				19
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "98a36981-fbf5-42fc-9aa3-c72205599245",
+			"name": "Get Lead by ID",
+			"url": "http://localhost:8000/api/leads/1",
+			"time": 1248,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				1248
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "4a193bde-c79f-422f-a928-81298cc49b02",
+			"name": "Update Lead",
+			"url": "http://localhost:8000/api/leads/1",
+			"time": 8,
+			"responseCode": {
+				"code": 422,
+				"name": "Unprocessable Entity"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				8
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "178a4f80-a91e-4dbe-83b6-cf2124bb0a84",
+			"name": "Delete Lead",
+			"url": "http://localhost:8000/api/leads/1",
+			"time": 1254,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				1254
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "1387c625-b4c0-456f-8898-14e68512b3f6",
+			"name": "Get All Orders",
+			"url": "http://localhost:8000/api/orders/",
+			"time": 862,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				862
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "f7296fa6-8af6-4736-9d9d-74e5735b6701",
+			"name": "Create Order",
+			"url": "http://localhost:8000/api/orders/",
+			"time": 6,
+			"responseCode": {
+				"code": 422,
+				"name": "Unprocessable Entity"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				6
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "a6df964d-cb4d-44f7-b78a-0ff2c3f55db5",
+			"name": "Get Order by ID",
+			"url": "http://localhost:8000/api/orders/1",
+			"time": 1171,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				1171
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "83748785-e0b0-4ce5-90d8-b48b34be9823",
+			"name": "Update Order",
+			"url": "http://localhost:8000/api/orders/1",
+			"time": 5,
+			"responseCode": {
+				"code": 422,
+				"name": "Unprocessable Entity"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				5
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "5f2f307c-3bc9-429c-819b-38e8c131c094",
+			"name": "Delete Order",
+			"url": "http://localhost:8000/api/orders/1",
+			"time": 1169,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				1169
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "ad244d73-32ce-4bb8-9baa-f94a3f2c7148",
+			"name": "Get Dashboard Stats",
+			"url": "http://localhost:8000/api/dashboard/stats",
+			"time": 2236,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				2236
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "1fb8fcc4-115e-47e4-a928-344b1a6c338d",
+			"name": "Health Check",
+			"url": "http://localhost:8000/health",
+			"time": 3,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				3
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 8898,
+	"collection": {
+		"requests": [
+			{
+				"id": "c77f07b2-e453-464d-9eec-f6f099adb43f",
+				"method": "GET"
+			},
+			{
+				"id": "39644c65-cd2f-4747-bb8c-d6f63f643a94",
+				"method": "POST"
+			},
+			{
+				"id": "98a36981-fbf5-42fc-9aa3-c72205599245",
+				"method": "GET"
+			},
+			{
+				"id": "4a193bde-c79f-422f-a928-81298cc49b02",
+				"method": "PUT"
+			},
+			{
+				"id": "178a4f80-a91e-4dbe-83b6-cf2124bb0a84",
+				"method": "DELETE"
+			},
+			{
+				"id": "1387c625-b4c0-456f-8898-14e68512b3f6",
+				"method": "GET"
+			},
+			{
+				"id": "f7296fa6-8af6-4736-9d9d-74e5735b6701",
+				"method": "POST"
+			},
+			{
+				"id": "a6df964d-cb4d-44f7-b78a-0ff2c3f55db5",
+				"method": "GET"
+			},
+			{
+				"id": "83748785-e0b0-4ce5-90d8-b48b34be9823",
+				"method": "PUT"
+			},
+			{
+				"id": "5f2f307c-3bc9-429c-819b-38e8c131c094",
+				"method": "DELETE"
+			},
+			{
+				"id": "ad244d73-32ce-4bb8-9baa-f94a3f2c7148",
+				"method": "GET"
+			},
+			{
+				"id": "1fb8fcc4-115e-47e4-a928-344b1a6c338d",
+				"method": "GET"
+			}
+		]
+	}
+}

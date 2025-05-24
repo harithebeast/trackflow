@@ -1,0 +1,61 @@
+### Test API Endpoints
+
+# Create seed data
+POST http://localhost:8000/api/seed-data
+Content-Type: application/json
+
+###
+
+# Get all leads
+GET http://localhost:8000/api/leads
+
+###
+
+# Create a new lead
+POST http://localhost:8000/api/leads/
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "contact": "john@example.com",
+  "company": "Example Corp",
+  "product_interest": "CRM Software",
+  "stage": "New",
+  "follow_up_date": "2024-02-01",
+  "notes": "Interested in our premium features"
+}
+
+###
+
+# Update a lead (replace {lead_id} with actual ID)
+PUT http://localhost:8000/api/leads/{lead_id}
+Content-Type: application/json
+
+{
+  "stage": "Won"
+}
+
+###
+
+# Get all orders
+GET http://localhost:8000/api/orders
+
+###
+
+# Update an order (replace {order_id} with actual ID)
+PUT http://localhost:8000/api/orders/{order_id}
+Content-Type: application/json
+
+{
+  "status": "Dispatched",
+  "dispatch_date": "2024-01-25",
+  "courier": "FedEx",
+  "tracking_number": "FX123456789"
+}
+
+###
+
+# Get dashboard stats
+GET http://localhost:8000/api/dashboard/stats
+
+###
