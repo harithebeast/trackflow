@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: trackflow-frontend
+    env: node
+    buildCommand: npm install && npm run build
+    startCommand: "PORT=$PORT npm run start"
+    envVars:
+      - key: NODE_VERSION
+        value: 18.0.0
+      - key: PORT
+        value: 10000 
